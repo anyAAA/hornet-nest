@@ -69,33 +69,33 @@ npm run serve
 项目布局
 ```
 .
-├── public										// 入口
-│	├── favicon.ico                             // 图标
-│	├── index.html                              // 入口html文件
+├── public                                      // 入口
+│   ├── favicon.ico                             // 图标
+│   ├── index.html                              // 入口html文件
 ├── src                                         // 源码目录
-│	├── assets									// 静态文件+公共图片
-│	│	├── css                           		// css样式
-│	│	└── fonts                       		// framework7字体文件
-│	├── components								// 公共组件
-│	│	├── Search.vue							// 搜索组件
-│	│	└── searchtes.vue  
-│	├── router									
-│	│	└── index.js							// 路由配置
-│	├── views
-│	│	├── home	// 首页组件
-│	│   │	├── Attention.vue					// 首页页面  
-│	│   │	└── index.vue    					// home 根页面
-│	│	├── hotel	
-│	│   │	└── index.vue						// 订酒店组件
-│	│	├── location 
-│	│   │	└── index.vue						// 定位地点组件
-│	│	├── me	
-│	│   │	└── index.vue						// 我的
-│	│	└──  tour 
-│	│   │	└── index.vue 						// 去旅行组件 
-│	├── App.vue									// 页面入口文件 
-│	├── main.js									// 程序入口文件，加载各种公共组件 
-│	├── store.js								// vuex的状态管理 创建 store
+│   ├── assets                                  // 静态文件+公共图片
+│   │   ├── css                                 // css样式
+│   │   └── fonts                               // framework7字体文件
+│   ├── components                              // 公共组件
+│   │   ├── Search.vue                          // 搜索组件
+│   │   └── searchtes.vue  
+│   ├── router
+│   │   └── index.js                            // 路由配置
+│   ├── views
+│   │   ├── home                                // 首页组件
+│   │   │   ├── Attention.vue                   // 首页页面
+│   │   │   └── index.vue                       // home 根页面
+│   │   ├── hotel
+│   │   │   └── index.vue                       // 订酒店组件
+│   │   ├── location 
+│   │   │   └── index.vue                       // 定位地点组件
+│   │   ├── me
+│   │   │   └── index.vue                       // 我的
+│   │   └──  tour
+│   │   │   └── index.vue                       // 去旅行组件 
+│   ├── App.vue                                 // 页面入口文件 
+│   ├── main.js                                 // 程序入口文件，加载各种公共组件 
+│   ├── store.js                                // vuex的状态管理 创建 store
 ├── babel.config.js  
 ├── package.json
 ├── package-lock.json
