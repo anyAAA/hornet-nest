@@ -23,9 +23,7 @@ npm run serve
  
 ![](http://oano.cn/images/chroma.png)
 
-Android 下载地址：
-
-[](https://service.dcloud.net.cn/build/download/815e1970-c5a3-11e9-886f-1d8291cceed9)
+Android 下载地址：[下载地址](http://service.dcloud.net.cn/build/download/815e1970-c5a3-11e9-886f-1d8291cceed9)
 
 ## 目标功能 
 
