@@ -55,20 +55,20 @@ Android 下载地址：[下载地址](http://service.dcloud.net.cn/build/downloa
 
 首页-关注
 
-![Alt text](https://github.com/anyAAA/hornet-nest/tree/master/screenshots/nod1.png)
-![Alt text](https://github.com/anyAAA/hornet-nest/tree/master/screenshots/nod2.png)
+![Alt text](https://github.com/anyAAA/hornet-nest/blob/master/screenshots/nod1.png)
+![Alt text](https://github.com/anyAAA/hornet-nest/blob/master/screenshots/nod2.png)
 
 首页-推荐
 
-![Alt text](https://github.com/anyAAA/hornet-nest/tree/master/screenshots/nod3.png)
+![Alt text](https://github.com/anyAAA/hornet-nest/blob/master/screenshots/nod3.png)
 
 首页-附近
 
-![Alt text](https://github.com/anyAAA/hornet-nest/tree/master/screenshots/nod4.png)
+![Alt text](https://github.com/anyAAA/hornet-nest/blob/master/screenshots/nod4.png)
 
 去旅行
 
-![Alt text](https://github.com/anyAAA/hornet-nest/tree/master/screenshots/nod5.png)
+![Alt text](https://github.com/anyAAA/hornet-nest/blob/master/screenshots/nod5.png)
 
 项目布局
 ```
