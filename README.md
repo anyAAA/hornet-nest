@@ -25,7 +25,6 @@ npm run serve
 
 Android 下载地址：[下载地址](http://service.dcloud.net.cn/build/download/815e1970-c5a3-11e9-886f-1d8291cceed9)
 
-
 ## 目标功能 
 
 - [x] 首页 —— 关注
@@ -56,18 +55,21 @@ Android 下载地址：[下载地址](http://service.dcloud.net.cn/build/downloa
 
 首页-关注
 
-![]()
-![](http://oano.cn/images/nod2.png)
+<img src="http://oano.cn/images/nod1.png" width="365" height="619"/>
+<img src="http://oano.cn/images/nod2.png" width="365" height="619"/>
 
 首页-推荐
 
-![](http://oano.cn/images/nod3.png)
+<img src="http://oano.cn/images/nod3.png" width="365" height="619"/>
+
 
 首页-附近
 
- ![](http://oano.cn/images/nod4.png)
+<img src="http://oano.cn/images/nod4.png" width="365" height="619"/>
 
+去旅行
 
+<img src="http://oano.cn/images/nod5.png" width="365" height="619"/>
 
 项目布局
 ```
