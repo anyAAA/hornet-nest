@@ -5,7 +5,6 @@
 				<ul>
 					<li>
 						<a href="#" id="autocomplete-standalone-popup" class="">
-							<!-- <f7-button/> -->
 							<div class="item-inner">
 								<div class="item-title"></div>
 								<div class="item-after"></div>
@@ -14,10 +13,13 @@
 					</li>
 				</ul>
 			</div>
+			
 			<div class="header flex">
 				<div>
 					<f7-icon f7="book_fill" size="30px" color="yellow"></f7-icon>
-					<div>攻略</div>
+					
+					<f-link href="/tour/">攻略</f-link>
+					
 				</div>
 				<div>
 					<f7-icon f7="download_round_fill" size="30px" color="yellow"></f7-icon>
@@ -40,7 +42,7 @@
 		</div>
 		<!-- tab bar -->
 		<div class="tabbar">
-			<f7-toolbar class="toobar" tabbar scrollable no-hairline="true">
+			<f7-toolbar class="toobar" tabbar bottom scrollable no-hairline="true">
 				<f7-link tab-link="#tab-1" href="homeattention/" tab-link-active>关注</f7-link>
 				<f7-link tab-link="#tab-2">推荐</f7-link>
 				<f7-link tab-link="#tab-3">附近</f7-link>
@@ -221,13 +223,18 @@
 
 <style lang="scss" scoped>
 	#list {
-		// width: 100%;
-		position: relative;
+		width: 100%;
+		position: fixed;
+		top: 0;
 		z-index: 1;
 		font-size: var(--f7-list-font-size);
 		margin: var(--f7-list-margin-vertical) 20;
 	}
-
+	#list>ul{
+		width: 100%;
+		position: fixed;
+		top: 0;
+	}
 	.flex {
 		display: flex;
 		justify-content: space-around;

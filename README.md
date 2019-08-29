@@ -56,7 +56,7 @@ Android 下载地址：[下载地址](http://service.dcloud.net.cn/build/downloa
 
 首页-关注
 
-![](http://oano.cn/images/nod1.png)
+![]()
 ![](http://oano.cn/images/nod2.png)
 
 首页-推荐
