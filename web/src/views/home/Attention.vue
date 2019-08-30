@@ -1,35 +1,13 @@
 <template>
 	<f7-page :page-content="true" @page:beforeremove="onPageBeforeRemove" @page:init="onPageInit">
+		<van-pull-refresh v-model="isLoading" @refresh="onRefresh">
 		<div class="head">
-			<!-- <div class="list" id="list">
-				<ul>
-					<li>
-						<a href="#" id="autocomplete-standalone-popup" class="">
-
-							<div class="item-inner">
-								<div class="item-title"></div>
-								<div class="item-after"></div>
-							</div>
-						</a>
-					</li>
-				</ul>
-			</div> -->
-			 <!-- <div class="search-all">
-				 <f7-searchbar class="search"  placeholder="北京"></f7-searchbar>
-				 <f7-icon class="search-icon" f7="home" size="22px" color="blue"></f7-icon>
-			 </div> -->
-			 
 			 <form action="/">
-			   <van-search
-			    
+			   <van-search			    
 			     placeholder="请输入搜索关键词"
 			     show-action
-			    
 			   />
-			 </form>
-			
-			
-			<!-- <f7-navbar title="Popup"></f7-navbar> -->
+			 </form>			
 			<div class="header flex">
 				<div>
 					<f7-icon f7="book_fill" size="30px" color="red"></f7-icon>
@@ -56,7 +34,7 @@
 		</div>
 		<!-- tab bar -->
 		<div class="tabbar">
-			<f7-toolbar class="toobar" tabbar scrollable :no-hairline="true">
+			<f7-toolbar top class="toobar" tabbar scrollable :no-hairline="true">
 				<f7-link tab-link="#tab-1" href="homeattention/" tab-link-active>关注</f7-link>
 				<f7-link tab-link="#tab-2">推荐</f7-link>
 				<f7-link tab-link="#tab-3">附近</f7-link>
@@ -82,9 +60,6 @@
 							</div>
 							<!-- video -->
 							<div class="user-info-video">
-								<!-- <video poster="video/head.png" id="video" controls="controls"  style="height: auto;margin: 0px;padding: 0px;" preload="preload">
-									<source src="video/ycgx.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"' >
-								</video> -->
 								<img src="../../assets/person_8.20.jpeg" alt="">
 							</div>
 							<div class="place">
@@ -268,7 +243,7 @@
 											<div class="carousel-back-circle">
 												<f7-icon class="circle-icon" slot="media" color="red" size="12px" f7="chevron_right"></f7-icon>  
 											</div>
-										</div>	 
+										</div>
 									</div>
 								</f7-swiper-slide>
 								<f7-swiper-slide>
@@ -339,7 +314,7 @@
 							
 							<div class="share-mini">
 								<div class="share-mini-left">
-									<f7-link fill popup-open=".demo-popup" class="share-mini-left-gram">
+									<f7-link href="/homedetails/">
 										<div class="pic-video pic-video-low">
 											<!-- 定位图标 -->
 											<div class="place-left">
@@ -705,16 +680,14 @@
 				</f7-tab>
 			</f7-tabs>
 		</div>
-
+		</van-pull-refresh>
 	</f7-page>
 </template>
 <script>
 
 	import Vue from 'vue';
-	import { Search,Swipe,SwipeItem} from 'vant';
-	
-	Vue.use(Search).use(Swipe).use(SwipeItem)
-
+	import { Search,Swipe,SwipeItem,PullRefresh,Toast} from 'vant';
+	Vue.use(Search).use(Swipe).use(SwipeItem).use(PullRefresh).use(Toast);
 
 	export default {
 		
@@ -724,10 +697,17 @@
 				tabs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
 				toolbarPosition: 'top',
 				current: 0,
-				isShow:false
+				isShow:false,
+				isLoading:true
 			};
 		},
 		methods: {
+			onRefresh() {
+			      setTimeout(() => {
+			        this.$toast('刷新成功');
+			        this.isLoading = false;	
+			      }, 1000);
+			},
 			sort:function(){
 				this.isShow=!this.isShow
 			},

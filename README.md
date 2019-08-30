@@ -62,6 +62,9 @@ Android 下载地址：[下载地址](http://service.dcloud.net.cn/build/downloa
 
 ![Alt text](https://github.com/anyAAA/hornet-nest/blob/master/screenshots/nod3.png)
 
+首页-推荐-第一个图片
+![Alt text](https://github.com/anyAAA/hornet-nest/blob/master/screenshots/nod7.png)
+
 首页-附近
 
 ![Alt text](https://github.com/anyAAA/hornet-nest/blob/master/screenshots/nod4.png)

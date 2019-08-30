@@ -3,7 +3,23 @@
 		<div class="search">
 			<van-search placeholder="请输入搜索关键词" />
 		</div>
-
+		
+		  <f7-list-item
+		        title="Title"
+		        subtitle="Subtitle"
+		        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis et massa ac interdum."
+		      >
+		        <f7-skeleton-block style="width: 40px; height: 40px; border-radius: 50%" slot="media"></f7-skeleton-block>
+		      </f7-list-item>
+		      <f7-list-item
+		        title="Title"
+		        subtitle="Subtitle"
+		        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lobortis et massa ac interdum."
+		      >
+		        <f7-skeleton-block style="width: 40px; height: 40px; border-radius: 50%" slot="media"></f7-skeleton-block>
+		      </f7-list-item>
+		    </f7-list>
+		
 		<div class="absolut">
 			<div class="header flex">
 				<div>
@@ -565,7 +581,7 @@
 
 	.search {
 		height: 11rem;
-		background: url(../../../dist/img/carousel2.8dc84317.jpeg) no-repeat;
+		background: url(../../assets/banner_add.jpg) no-repeat;
 		background-size: 100% 100%;
 		position: relative;
 		top: 0;
@@ -676,7 +692,7 @@
 
 	// 正在旅行 - 滑动
 	.carousel-1 {
-		background: url(../../../dist/img/banner_sad.95e4bd96.jpg);
+		background: url(../../assets/share_miniprogram_pic.png);
 	}
 	.page-content{
 		padding-bottom: 0;
@@ -938,7 +954,7 @@
 					background: rgba(7,17,27,0.4);
 					height: 1.2rem;
 					font-size: 11px;
-					font-weight: 600;
+					font-weight: normal;
 					color: #fff;
 					text-align: center;
 					padding: 0 0.3rem 0;
@@ -953,7 +969,7 @@
 				&>div:nth-child(1){
 					color: #000;
 					font-size: 12px;
-					font-weight: 600;
+					font-weight: 500;
 					line-height: 1.4rem;
 					text-align: center;
 					margin: 0 auto;
@@ -979,7 +995,7 @@
 				&>div:nth-child(1){
 					color: #000;
 					font-size: 12px;
-					font-weight: 600;
+					font-weight: 500;
 					line-height: 1.4rem;
 					text-align: center;
 					margin: 0 auto;
